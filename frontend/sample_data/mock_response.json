@@ -1,0 +1,8 @@
+{
+  "drugs": [
+    {"name": "Paracetamol", "dose": "500 mg", "recommended_dose": "500 mg"},
+    {"name": "Ibuprofen", "dose": "400 mg", "recommended_dose": "200 mg"}
+  ],
+  "alerts": ["Ibuprofen dose too high for patient age."],
+  "alternatives": ["Consider Naproxen 250 mg if NSAID needed."]
+}
