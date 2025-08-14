@@ -1,0 +1,13 @@
+{
+  "drugs": [
+    {"name": "aspirin", "common_dose_mg": 100, "alternatives": ["acetaminophen"]},
+    {"name": "ibuprofen", "common_dose_mg": 200, "alternatives": ["acetaminophen"]},
+    {"name": "warfarin", "common_dose_mg": 5, "alternatives": []},
+    {"name": "acetaminophen", "common_dose_mg": 500, "alternatives": []},
+    {"name": "amoxicillin", "common_dose_mg": 500, "alternatives": ["doxycycline"]}
+  ],
+  "interactions": [
+    {"a": "aspirin", "b": "ibuprofen", "risk": "High — increased GI bleeding risk", "advice": "Avoid combining; consider acetaminophen for pain."},
+    {"a": "warfarin", "b": "amoxicillin", "risk": "Moderate — dose monitoring required", "advice": "Consult physician; monitor INR."}
+  ]
+}
